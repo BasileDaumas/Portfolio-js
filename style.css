@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url(components/container.css);
-@import url(components/presentation.css);
-@import url(components/buttons.css);
-@import url(components/navbar.css);
-@import url(components/sections.css);
-@import url(components/footer.css);
-@import url(components/exo.css);
-@import url(components/avatar.css);
-@import url(components/paragraphe.css);
-@import url(components/image.css);
+@import url(CSS/components/container.css);
+@import url(CSS/components/presentation.css);
+@import url(CSS/components/buttons.css);
+@import url(CSS/components/navbar.css);
+@import url(CSS/components/sections.css);
+@import url(CSS/components/footer.css);
+@import url(CSS/components/exo.css);
+@import url(CSS/components/avatar.css);
+@import url(CSS/components/paragraphe.css);
+@import url(CSS/components/image.css);
 
 * {
     box-sizing: border-box;
