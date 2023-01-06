@@ -1,0 +1,22 @@
+.btn-blender1 {
+    background-color: rgb(116, 157, 177);
+    height: 100px;
+    border-radius: 999999px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    animation: transformation 2s infinite;
+}
+
+
+@keyframes transformation {
+    50% {
+        transform:scale(1.2);
+    }
+    
+}
+
+.btn-blender1:hover {
+    background-color: rgb(37, 78, 99);
+
+}
