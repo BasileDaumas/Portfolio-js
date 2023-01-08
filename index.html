@@ -96,88 +96,27 @@
         Voici un des projets réalisé sur Blender lors de ma première semaine de
         3d.
       </h4>
-      <section class="sections">
-        <div class="container mt-2">
-          <div class="row justify-content-center">
-            <div class="col col-4">
-              <div
-                id="carouselExampleIndicators"
-                class="carousel slide"
-                data-bs-ride="true"
-              >
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      src="images/Capture d'écran_20221112_175836.png"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="images/Capture d'écran_20221112_175848.png"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      src="images/Capture d'écran_20221112_175900.png"
-                      class="d-block w-100"
-                      alt="..."
-                    />
-                  </div>
-                </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+      
+
+
+  <div class="carousel-box">
+      <div class="main-navigation">
+          <button id="left-button" class="navigation-arrows" onclick="changeSlide('move-left', -1)"><i class="fa-solid fa-chevron-left" ></i></button>
+          <button id="right-button" class="navigation-arrows" onclick="changeSlide('move-right', 1)"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+  <div id="navigation-dots">
+          <i class="fa-solid fa-circle dot" id="active-dot" onclick="changeSlide('jump-to', 0)"></i>
+      </div>
+      <article class="carousel-slide" id="article1">
+          <p><img src="images/Capture d'écran_20221112_175836.png" alt=""></p>
+      </article>
+      <article class="carousel-slide" id="article2">
+          <p><img src="images/Capture d'écran_20221112_175848.png" alt=""></p>
+      </article>
+      <article class="carousel-slide" id="article3">
+          <p><img src="images/Capture d'écran_20221112_175900.png" alt=""></p>
+      </article>
+    </div>
         <button class="btn-blender1">
           <a href="lien externe/DAUMAS_BASILE_GR6_LUMIERE.blend"
             >Télécharger le fichier Blender</a
